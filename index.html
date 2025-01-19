@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار قصير في بطاقة الأسبوع الثالث</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>اختبار قصير في بطاقة الأسبوع الثالث</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1. بحسب دراستك للبكتيريا أين ممكن أن تعيش؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c"> في الكائنات الحية فقط</label>
+                <label><input type="radio" name="q1" value="b"> في البيئات الصعبة</label>
+               	<label><input type="radio" name="q1" value="a"> في كل مكان تقريباً  </label>			
+							
+            </div>
+        </div>
+		
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2.من أضرار البكتيريا علينا؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> تحلل الجثث وبقايا الكائنات الحية بعد موتها</label>
+                <label><input type="radio" name="q2" value="b"> التخلص من بقع النفط المتسرب في البحار</label>
+                <label><input type="radio" name="q2" value="c"> الإصابة بتسوس الأسنان</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. أي الأمراض الأتية تسببها البكتريا للإنسان؟</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> شلل الأطفال</label>
+                <label><input type="radio" name="q3" value="b"> التيفوئيد</label>
+                <label><input type="radio" name="q3" value="c"> الملاريا</label>
+            </div>
+        </div>
+
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. من أهم خصائص الكائن الحي الدقيق المسبب لتسوس الأسنان</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> غير ذاتي التغذية</label>
+                <label><input type="radio" name="q4" value="b"> متعدد الخلايا</label>
+                <label><input type="radio" name="q4" value="c"> جميع ماسبق</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. من الأمراض التي تصيب الإنسان الملاريا حيث يشعر المصاب بالصداع وارتفاع درجة الحرارة وفقر الدم ويسببه نوع من الأوليات وهي؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> براميسيوم</label>
+                <label><input type="radio" name="q5" value="b"> بلازموديوم</label>
+                <label><input type="radio" name="q5" value="c"> أميبا</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6. مرض يسببه نوع من الأوليات تعرف بـــ الانتاميبا هيستوليتيكا؟  </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b"> الزحار الأميبي</label>
+				<label><input type="radio" name="q6" value="a"> النوم الإفريقي</label>
+                <label><input type="radio" name="q6" value="c">  الجيارديا</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. ما الكائن الحي الدقيق الذي يستخدم في صناعة الوسط الغذائي (الاجار) في طبق بتري؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">الفطريات</label>
+				<label><input type="radio" name="q7" value="a"> البكتريا</label>
+                <label><input type="radio" name="q7" value="c"> الطحالب</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. يُستخرج المضاد الحيوي البنسلين من ؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b">الفطريات</label>
+				<label><input type="radio" name="q8" value="a">البكتريا</label>
+                <label><input type="radio" name="q8" value="c">الطحالب</label>
+            </div>
+        </div>
+		
+				<!-- السؤال التاسع -->
+        <div class="question" id="q9-container">
+            <p>9. السبب في انتفاخ العجين عند إضافة الخميرة هو خروج غاز؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="b">الهيدروجين</label>
+				<label><input type="radio" name="q9" value="a"> ثاني أكسيد الكربون</label>
+                <label><input type="radio" name="q9" value="c"> الأكسجين</label>
+            </div>
+        </div>
+				<!-- السؤال العاشر -->
+        <div class="question" id="q10-container">
+            <p>10. يعتبر طحلب السبيرولينا منقذ العالم من الجوع والسبب يعود إلى ؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="b">لأنه يحتوي على بروتين عالي الجودة بإضافة إلى فيتامينات وبعض المعادن</label>
+				<label><input type="radio" name="q10" value="a"> سهولة زراعته</label>
+                <label><input type="radio" name="q10" value="c"> جميع ماسبق</label>
+            </div>
+        </div>
+		
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+	
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'a',
+                q2: 'c',
+                q3: 'b',
+                q4: 'a',
+                q5: 'b',
+				q6: 'b',
+				q7: 'c',
+				q8: 'b',
+				q9: 'a',
+				q10: 'c',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 10 أسئلة`;
+        }
+    </script>
+</body>
+</html>
